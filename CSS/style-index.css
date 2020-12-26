@@ -16,22 +16,32 @@ div{
 
 }
 
-.estos-dos{
 
-}
-.input_small{
+.input_left{
     display: inline-block;
     width: 363px;
     height: 59px;
     margin-bottom: 33px;
-    margin-right: 33px;
-    
+    margin-right: 33px; 
 }
+.input_right{
+    display: inline-block;
+    width: 363px;
+    height: 59px;
+    margin-bottom: 33px;
+     
+}
+
 .input_desc{
     margin-bottom: 45px;
+    text-align: ;
+    display: inline-block;
+    width: 771px;
+    height: 112px;
+    
 }
 .submit{
-    width: 167px;
+    width: 173px;
     height: 56px;
     background-color: #233451;
 }
