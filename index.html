@@ -3,21 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style-index.css">
     <title>Document</title>
 </head>
 <body>
     <h1>Contacto</h1>
     <form action="">
-        <div>
-            <input type="text" name="name" placeholder="Nombre">
-            <input type="text" name="last-name" placeholder="Apellido">
+        <div class="estos-dos">
+            <input type="text" class="input_small" name="name" placeholder="Nombre">
+            <input type="text" class="input_small" name="last-name" placeholder="Apellido">
+        </div>
+        <div class="estos-dos">
+            <input type="email" class="input_small" name="email" placeholder="Email">
+            <input type="number" class="input_small" name="number" placeholder="Telefono">
         </div>
         <div>
-            <input type="email" name="email" placeholder="Email">
-            <input type="number" name="number" placeholder="Telefono">
+            <input type="textarea" class="input_desc" name="description" placeholder="Descripcion">
         </div>
         <div>
-            <input type="textarea" name="description" placeholder="Descripcion">
+            <input type="submit" class="submit" value="ENVIAR">
         </div>
 
     </form>

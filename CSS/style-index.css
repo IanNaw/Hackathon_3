@@ -1,0 +1,39 @@
+@import "normalize.css";
+
+body{
+    background-color: #1687A0;
+}
+h1{
+    color: red;
+    text-align: center;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+}
+
+div{
+    text-align: center;
+
+}
+
+.estos-dos{
+
+}
+.input_small{
+    display: inline-block;
+    width: 363px;
+    height: 59px;
+    margin-bottom: 33px;
+    margin-right: 33px;
+    
+}
+.input_desc{
+    margin-bottom: 45px;
+}
+.submit{
+    width: 167px;
+    height: 56px;
+    background-color: #233451;
+}
+
+
