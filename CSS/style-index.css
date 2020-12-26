@@ -2,6 +2,7 @@
 
 body{
     background-color: #1687A0;
+    font-family: Arial, sans-serif;
 }
 h1{
     color: red;
@@ -19,6 +20,7 @@ div{
 
 .input_left{
     display: inline-block;
+    padding-left: 9px;
     width: 363px;
     height: 59px;
     margin-bottom: 33px;
@@ -26,6 +28,7 @@ div{
 }
 .input_right{
     display: inline-block;
+    padding-left: 9px;
     width: 363px;
     height: 59px;
     margin-bottom: 33px;
@@ -34,15 +37,18 @@ div{
 
 .input_desc{
     margin-bottom: 45px;
-    text-align: ;
     display: inline-block;
-    width: 771px;
+    padding-top: 19px;
+    padding-left: 9px;
+    width: 781px;
     height: 112px;
     
 }
 .submit{
     width: 173px;
     height: 56px;
+    color: white;
+    font-family: inherit;
     background-color: #233451;
 }
 
